@@ -7,7 +7,6 @@
    Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
   description: | # this will include new lines to allow paragraphs
     As the data usage keeps increasing, Bouygues Telecom has to optimize its network as hard as it can. At the same time, there is a 4G simulator that's need to be adjusted with current data to be accurate. Thus, I'm currently analyzing data from mobile networks to improve the 4G simulator and to prepare the deployment of 5G. At the same time, I'm identify information sources concerning 5G to develop models for the incoming 5G simulator.
-
 - layout: left
   company: Arc France
   link: https://www.arc-intl.com/eng/
