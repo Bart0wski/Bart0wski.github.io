@@ -1,0 +1,30 @@
+- layout: left
+  company: Huawei France
+  link: https://www.huawei.com/fr/
+  job_title: Wireless Network Engineer
+  dates: October 2019 - Today
+  quote: >
+   Using my best in 5G
+  description: | # this will include new lines to allow paragraphs
+    - 4G/5G new features tests and KPI analysis on live network and lab
+    - Integration of 4G/5G Sites
+    - 2G/3G/4G/5G validation tests of new RAN software in lab
+    - Site Design of 5G Site
+- layout: left
+  company: Bouygues Telecom
+  link: https://www.bouygues.com/en/activities/telecoms/bouygues-telecom/
+  job_title: Radio System Engineer Intern
+  dates: March - September 2019
+  quote: >
+   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+  description: | # this will include new lines to allow paragraphs
+    As the data usage keeps increasing, Bouygues Telecom has to optimize its network as hard as it can. At the same time, there is a 4G simulator that's need to be adjusted with current data to be accurate. Thus, I'm currently analyzing data from mobile networks to improve the 4G simulator and to prepare the deployment of 5G. At the same time, I'm identify information sources concerning 5G to develop models for the incoming 5G simulator.
+- layout: left
+  company: Arc France
+  link: https://www.arc-intl.com/eng/
+  job_title: Industrial Placement
+  dates: July - August 2017
+  quote: >
+   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+  description: | # this will include new lines to allow paragraphs
+    During my first experience in industry, I worked on an assembly line and I was also in charge of checking the final quality of industrial products. I think that experience could help me understand better the needs of industries, if I have to work in IoT domain, especially with the Industry 4.0 .
