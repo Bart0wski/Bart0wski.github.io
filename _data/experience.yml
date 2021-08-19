@@ -1,4 +1,16 @@
 - layout: left
+  company: Huawei France
+  link: https://www.huawei.com/fr/
+  job_title: Wireless Network Engineer
+  dates: October 2019 - Today
+  quote: >
+   Using my best in 5G
+  description: | # this will include new lines to allow paragraphs
+    - 4G/5G new features tests and KPI analysis on live network and lab
+    - Integration of 4G/5G Sites
+    - 2G/3G/4G/5G validation tests of new RAN software in lab
+    - Site Design of 5G Site
+- layout: left
   company: Bouygues Telecom
   link: https://www.bouygues.com/en/activities/telecoms/bouygues-telecom/
   job_title: Radio System Engineer Intern
