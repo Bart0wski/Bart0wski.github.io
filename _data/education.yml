@@ -1,30 +1,50 @@
-- layout: left
-  name: IMT Atlantique (former Telecom Bretagne)
-  dates: 2016 - 2019
-  qualification: General Engineering MSC Course - Networks and Telecommunications specialty
-  quote: >
-    I neeed to change it
-  description: | # this will include new lines to allow paragraphs
-    During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-    I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+# - layout: custom
+#   name: Ural Institute of Stock Market
+#   city: Yekaterinburg
+#   logo: images/uifr-logo.png
+#   link: www.uifr.ru
+#   dates: 2001 - 2006
+#   qualification: Master's Degree
+#   description: |
+#     - **Direction**: Finance and Credit
+#     - **Specialization**: Securities market and stock exchanges
+#     - **Thesis**: Specifics of asset management in the banking sector
 
-- layout: left
+- layout: custom
+  name: IMT Atlantique (former Telecom Bretagne)
+  city: Brest - Rennes • France
+  logo: images/Logo_Institut_Mines-Télécom.png
+  dates: 2016 - 2019
+  link: https://www.imt-atlantique.fr/en
+  qualification: General Engineering MSC Course - Networks and Telecommunications specialty
+  description: | # this will include new lines to allow paragraphs
+    - General knowledge in Physics and Signal Processing
+    - **Majors**: Computer Science and Network
+    - **Subjects**: Mobile Network • IoT • Big Data • Databases
+
+- layout: custom
   name: Seoul National University
+  city: Seoul • South Korea
+  logo: images/snu_logo.png
   dates: February - June 2018
+  link: https://en.snu.ac.kr/
   qualification: Exchange Semester - Master-level Degree
-  quote: >
-    I neeed to change it
   description: | # this will include new lines to allow paragraphs
     During this exchange I could follow the following courses:
       - Data Mining
       - Advanced Digital Integrated Circuits
-      - Microeconomics - Compiler Optimization
+      - Microeconomics
+      - Compiler Optimization
 
-- layout: left
+- layout: custom
   name: Lycée Faidherbe
+  city: Lille • France
   dates: 2014 - 2016
-  qualification: Preparatory Classes two-year undergraduate intensive course	
-  quote: >
-    I neeed to change it
+  logo: images/faidherbe.png
+  link: https://www.faidherbe.org/
+  qualification: Preparatory Classes two-year undergraduate intensive course
   description: | # this will include new lines to allow paragraphs
-    Describe what is french preparatory classes
+    Two-year undergraduate intensive course
+      - Mathematics
+      - Physics
+      - Engineering Science

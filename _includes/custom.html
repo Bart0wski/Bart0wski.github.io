@@ -1,0 +1,59 @@
+{% assign protocol = include.item.link | strip | slice: 0, 4 %}
+{% assign start_date = include.item.start_date | date: '%s' %}
+{% assign end_date_item = include.item.end_date | default: "now" %}
+{% assign end_date = end_date_item | date: '%s' %}
+{% assign diffYearsExact = end_date | minus: start_date | divided_by: 3600.0 | divided_by: 24.0 | divided_by: 365.0 %}
+{% assign diffYears = end_date | minus: start_date | divided_by: 3600 | divided_by: 24 | divided_by: 365 %}
+{% assign diffMonths = diffYearsExact | minus: diffYears | times: 12 | ceil %}
+{%- if diffMonths == 12 -%}
+  {% assign diffYears = diffYears | plus: 1 %}
+  {% assign diffMonths = 0 %}
+{%- endif -%}
+<div class="row clearfix layout layout-left">
+  <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
+    {%- if include.item.dates -%}<p>{{ include.item.dates }}</p>{%- endif -%}
+    {%- if include.item.start_date -%}
+      <p>
+        {{ start_date | date: "%b %Y" }} - {% if end_date_item == "now" %}Present {% else %}{{ end_date | date: "%b %Y" | append: " " }}{%- endif -%}
+        ({%- if diffYears > 0 -%}{{ diffYears | append: " yrs" }}{%- endif -%}{%- if diffYears > 0 and diffMonths > 0 -%}{{" "}}{%- endif -%}{%- if diffMonths > 0 -%}{{ diffMonths | append: " mos" }}{%- endif -%})
+      </p>
+    {%- endif -%}
+    {%- if include.item.city -%}<p class="uppercase"><b>{{ include.item.city }}</b></p>{%- endif -%}
+  </div>
+  <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
+    <div class="job-header">
+      <div class="details">
+        {%- if include.item.name -%}<h4>{{ include.item.name }}</h4>{%- endif -%}
+        {%- if include.item.name -%}
+          {%- if include.item.link -%}
+            {% include a.html href=include.item.link class="link" %}{{ include.item.link }}</a>
+          {%- endif -%}
+        {%- endif -%}
+        {%- if include.item.job_title -%}<p><b>{{ include.item.job_title }}</b></p>{%- endif -%}
+        {%- if include.item.qualification -%}<p><b>{{ include.item.qualification }}</b></p>{%- endif -%}
+        {% for job in include.item.jobs %}
+          <p><b>{{ job.title }}</b></p>
+          <p>{{ job.dates }}</p>
+        {% endfor %}
+        {%- if include.item.github -%}
+          <p class="no-print">
+            <a href="https://github.com/{{ include.item.github }}" target="_blank">
+              <i class="fa fa-github" title="{{ include.item.name }} Github link"></i>
+            </a>
+          </p>
+        {%- endif -%}
+      </div>
+      {%- if include.item.logo -%}
+        <p>
+          <a href="{% if protocol != 'http' %}//{% endif %}{{ include.item.link }}" target="_blank">
+            <img class="logo" src="{{ include.item.logo }}" />
+          </a>
+        </p>
+      {%- endif -%}
+    </div>
+    {%- if include.item.quote -%}
+      <p class="quote">{{ include.item.quote }}</p>
+    {%- endif -%}
+    {{ include.item.description | strip | markdownify }}
+  </div>
+</div>

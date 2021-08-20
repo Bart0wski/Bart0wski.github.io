@@ -1,11 +1,14 @@
 # Site
-repository: sproogen/resume-theme
-# favicon: images/favicon.ico
+repository: floydspace/floydspace.github.io
+favicon: images/5g.ico
+darkmode: true
 
 # Personal info
+
 name: François Beugin
-title: Junior Network Enginner
+title: Wireless Network Engineer
 email: beugin.francois@gmail.com
+address: Boulogne-Billancourt • France
 website: bart0wski.github.io
 
 # Social links
@@ -15,21 +18,26 @@ github_username:  Bart0wski
 # facebook_username: jekyll
 # flickr_username: jekyll
 #instagram_username: chillwildlife
-linkedin_username: francois.beugin
+linkedin_username: francoisbeugin
 # pinterest_username: jekyll
 #youtube_username: globalmtb
 # googleplus_username: +jekyll
 
+# Google Analytics and Tag Manager
+#gtag: UA-155264465-1
+
 # About Section
-# about_title: About Me
+# about_title: Profile
 about_profile_image: images/kakao.jpg
-about_content: | # this will include new lines to allow paragraphs
+about_content: |
   Hi, welcome to my personal web page, I'm François and I'm a freshly graduate student from IMT Atlantique, I'm currently doing my final internship as a Radio System Engineer in Bouygues Telecom (French Mobile ISP). I'm also interested in IoT and analyzing data.
 
   I am most skilled in: <mark>Python</mark> and <mark>mobile networks</mark>
+# Skills Section
+# skills_title: Skills
 
 # Projects Section
-# projects_title: Projects
+projects_title: Most starred open-source projects
 
 # Experience Section
 # experience_title: Experience
@@ -37,24 +45,19 @@ about_content: | # this will include new lines to allow paragraphs
 # Education Section
 # educaton_title: Education
 
+# Certifications Section
+# certifications_title: Certifications
+
 # More Section
-# more_title: A Little More About Me
-more_content: | # this will include new lines to allow paragraphs
-  Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-   - Bridge
-   - Gaming
-   - Table Tennis
-#   - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg) ===>How to make hyperlink
+more_title: Hobbies
+more_content: |
+  Alongside my interests in software development some of my other interests and hobbies are:
+   - 🕹️ Gaming
+   - 🏓 Table Tennis
+   - 🃏 Bridge
 
 # Footer
 footer_show_references: true
 
 # Build settings
-remote_theme: sproogen/resume-theme
-
-sass:
-  sass_dir: _sass
-  style: compressed
-
-plugins:
- - jekyll-seo-tag
+remote_theme: sproogen/modern-resume-theme

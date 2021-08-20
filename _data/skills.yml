@@ -1,0 +1,12 @@
+- skill: Python
+  score: [1,1,1,1,1]
+- skill: LaTex
+  score: [1,1,1,1]
+- skill: Java
+  score: [1,1,1]
+- skill: 5G NR
+  score: [1,1,1,1,1]
+- skill: 4G LTE
+  score: [1,1,1,1,1]
+- skill: Nemo, XCAL, QxDM
+  score: [1,1,1,1,1]

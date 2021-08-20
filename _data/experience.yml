@@ -1,30 +1,44 @@
-- layout: left
-  company: Huawei France
+- layout: custom
+  name: Huawei France
   link: https://www.huawei.com/fr/
+  city: Paris • France
+  logo: images/huawei_logo.webp
   job_title: Wireless Network Engineer
-  dates: October 2019 - Today
-  quote: >
-   Using my best in 5G
+  start_date: October 2019
   description: | # this will include new lines to allow paragraphs
     - 4G/5G new features tests and KPI analysis on live network and lab
-    - Integration of 4G/5G Sites
-    - 2G/3G/4G/5G validation tests of new RAN software in lab
     - Site Design of 5G Site
-- layout: left
-  company: Bouygues Telecom
+    - Responsible for wireless system testing and validation
+    - Provide and perform acceptance test case
+    - Configure wireless equipment (base station and controler)
+    - Participation and implementation of test protocols for mobile radio equipment on experimental platforms.
+    - Creation of tools to generate configuration script automatically
+
+    **Tools**: <mark>Python</mark>, <mark>Nemo</mark>, <mark>Genex Probe</mark>
+- layout: custom
+  name: Bouygues Telecom
   link: https://www.bouygues.com/en/activities/telecoms/bouygues-telecom/
+  city: Paris • France
+  logo:  images/bouygues.png
   job_title: Radio System Engineer Intern
-  dates: March - September 2019
-  quote: >
-   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+  start_date: March 2019
+  end_date: September 2019
   description: | # this will include new lines to allow paragraphs
-    As the data usage keeps increasing, Bouygues Telecom has to optimize its network as hard as it can. At the same time, there is a 4G simulator that's need to be adjusted with current data to be accurate. Thus, I'm currently analyzing data from mobile networks to improve the 4G simulator and to prepare the deployment of 5G. At the same time, I'm identify information sources concerning 5G to develop models for the incoming 5G simulator.
-- layout: left
-  company: Arc France
+    In order to upgrade and calibrate the 4G simulator and develop the 5G simulator, my main missions during this internship are :
+    - Identify the main data sources that can be used to calibrate the 4G simulator (probes, network counters, ...) and select and process the relevant data.
+    - Identify sources of information about 5G networks.
+
+     **Tools**: <mark>Python</mark>, <mark>Anaconda Packages</mark>
+
+- layout: custom
+  name: Arc France
   link: https://www.arc-intl.com/eng/
+  city: Arques • France
+  logo: images/arc_pack.jpg
   job_title: Industrial Placement
-  dates: July - August 2017
-  quote: >
-   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+  start_date: July 2017
+  end_date: August 2017
   description: | # this will include new lines to allow paragraphs
-    During my first experience in industry, I worked on an assembly line and I was also in charge of checking the final quality of industrial products. I think that experience could help me understand better the needs of industries, if I have to work in IoT domain, especially with the Industry 4.0 .
+    - Worked on the assembly line, assisted the mechanical technicians.
+    - Management of anomalies, failures
+    - Compliance with the hours, health and safety rules (equipment, personal protection, etc.)

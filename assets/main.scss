@@ -3,3 +3,127 @@
 ---
 
 @import 'modern-resume-theme';
+
+.layout {
+  display: block;
+}
+
+.projects-container h3, .experience-container h3, .education-container h3 {
+  margin-bottom: 0;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.logo {
+  max-width: 150px;
+  max-height: 45px;
+}
+
+.job-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  .job-header {
+    display: block;
+  }
+  .job-header > p {
+    display: none;
+  }
+}
+
+.skills-container {
+  .details {
+    height: 140px;
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+  @media screen and (max-width: 768px) {
+    .details {
+      height: auto;
+    }
+  }
+  .skill {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3px;
+    width: 280px;
+
+    .skill-label {
+      font-size: 1.6em;
+      text-align: justify;
+      width: 150px;
+    }
+  }
+  .points {
+    display: flex;
+    justify-content: space-between;
+    width: 90px;
+  }
+
+  .point {
+    width: 12px;
+    height: 12px;
+    font-size: 0;
+    border-radius: 50%;
+
+    i {
+      color: lightgray !important;
+      font-size: 1.2rem;
+      @media print {
+        display: none;
+      }
+    }
+
+  }
+  .point.on {
+    i {
+      color: #333 !important;
+      @media print {
+        display: initial;
+      }
+    }
+
+  }
+}
+
+@media print {
+  .layout > .details {
+    display: flex;
+    justify-content: space-between;
+  }
+  .header-contianer {
+    margin-top: 0;
+  }
+  mark {
+    padding: 0;
+  }
+}
+
+@media not print {
+  .dark {
+    .skills-container {
+      .point i {
+        color: #333 !important;
+      }
+      .point.on i {
+        color: lightgray !important;
+      }
+    }
+  }
+}
+
+p.quote {
+  padding: 0;
+  text-align: inherit;
+
+  @media print {
+    padding: 0;
+  }
+}
