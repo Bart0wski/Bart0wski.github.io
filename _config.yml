@@ -1,7 +1,7 @@
 # Site
-repository: floydspace/floydspace.github.io
+repository: Bart0wski/Bart0wski.github.io
 favicon: images/5g.ico
-darkmode: true
+darkmode: never
 
 # Personal info
 
@@ -9,7 +9,7 @@ name: François Beugin
 title: Wireless Network Engineer
 email: beugin.francois@gmail.com
 address: Boulogne-Billancourt • France
-website: bart0wski.github.io
+website: fbeugin.fr
 
 # Social links
 #twitter_username: facespics
