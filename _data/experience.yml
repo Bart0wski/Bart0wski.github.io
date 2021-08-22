@@ -10,11 +10,11 @@
     - Site Design of 5G Site
     - Responsible for wireless system testing and validation
     - Provide and perform acceptance test case
-    - Configure wireless equipment (base station and controler)
+    - Configure wireless equipments (base station and controler)
     - Participation and implementation of test protocols for mobile radio equipment on experimental platforms.
     - Creation of tools to generate configuration script automatically
 
-    **Tools**: <mark>Python</mark>, <mark>Nemo</mark>, <mark>Genex Probe</mark>
+    **Tools**: <mark>Python</mark> <mark>Nemo</mark> <mark>Genex Probe</mark>
 - layout: custom
   name: Bouygues Telecom
   link: https://www.bouygues.com/en/activities/telecoms/bouygues-telecom/
@@ -27,8 +27,9 @@
     In order to upgrade and calibrate the 4G simulator and develop the 5G simulator, my main missions during this internship are :
     - Identify the main data sources that can be used to calibrate the 4G simulator (probes, network counters, ...) and select and process the relevant data.
     - Identify sources of information about 5G networks.
+    - Analyze packets exchanged between the mobile and the radio access network using QxDM
 
-     **Tools**: <mark>Python</mark>, <mark>Anaconda Packages</mark>
+     **Tools**: <mark>Python</mark> <mark>Anaconda Packages</mark>
 
 - layout: custom
   name: Arc France

@@ -12,7 +12,7 @@ name: François Beugin
 title: Wireless Network Engineer
 email: beugin.francois@gmail.com
 address: Boulogne-Billancourt • France
-website: fbeugin.fr
+website: www.fbeugin.fr
 
 # Social links
 #twitter_username: facespics
@@ -25,6 +25,7 @@ linkedin_username: francoisbeugin
 # pinterest_username: jekyll
 #youtube_username: globalmtb
 # googleplus_username: +jekyll
+resume: Resume_english.pdf
 
 # Google Analytics and Tag Manager
 #gtag: UA-155264465-1
@@ -33,14 +34,16 @@ linkedin_username: francoisbeugin
 # about_title: Profile
 about_profile_image: images/kakao.jpg
 about_content: |
-  Hi, welcome to my personal web page, I'm François and I'm a freshly graduate student from IMT Atlantique, I'm currently doing my final internship as a Radio System Engineer in Bouygues Telecom (French Mobile ISP). I'm also interested in IoT and analyzing data.
+  Hi, welcome to my personal web page, I'm François and I'm a Wireless Network Engineer working on 4G and 5G Technologies at Huawei.
+  Before that, I was working an intern at Bouygues Telecom to finish my Master Degree at IMT Atlantique.
+  I'm also interested in IoT and analyzing data.
 
-  I am most skilled in: <mark>Python</mark> and <mark>mobile networks</mark>
+  I am most skilled in: <mark>Python</mark> and <mark>Mobile Networks</mark>
 # Skills Section
 # skills_title: Skills
 
 # Projects Section
-projects_title: Most starred open-source projects
+projects_title: Projects at IMT Atlantique
 
 # Experience Section
 # experience_title: Experience
@@ -57,10 +60,10 @@ more_content: |
   Alongside my interests in software development some of my other interests and hobbies are:
    - 🕹️ Gaming
    - 🏓 Table Tennis
-   - 🃏 Bridge
+   - 🎴 Bridge
 
 # Footer
-footer_show_references: true
+footer_show_references: false
 
 # Build settings
 remote_theme: sproogen/modern-resume-theme

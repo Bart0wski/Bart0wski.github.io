@@ -1,19 +1,24 @@
-# - layout: left
-#   name: serverless-esbuild
+- layout: left
+  name: Tools for measuring the characteristics of a wireless network
 #   link: floydspace.github.io/serverless-esbuild
 #   github: floydspace/serverless-esbuild
-#   quote: >
-#     💨 A Serverless framework plugin to bundle JavaScript and TypeScript with extremely fast `esbuild`.
-#   description: |
-#     I initiated it because no one has done it yet.
-# - layout: left
-#   name: aws-lambda-nodejs-esbuild
-#   link: floydspace.github.io/aws-lambda-nodejs-esbuild
-#   github: floydspace/aws-lambda-nodejs-esbuild
-#   quote: >
-#     λ💨 AWS CDK Construct to bundle JavaScript and TypeScript AWS lambdas using extremely fast `esbuild`.
-#   description: |
-#     I created it as an alternative to build-in `@aws-cdk/aws-lambda-nodejs` which had been extremely slow to build by the time.
+  quote: >
+     End of studies project at IMT Atlantique.
+  description: |
+     Creation of throughput measurement and analysis tools on a communicating vehicle
+
+     **Tools**: <mark>Python</mark> <mark>Raspberry Pi</mark>
+- layout: left
+  name: MTSGO Server
+  link: aneutron.github.io/mtsgo-server/
+  github: github.com/aneutron/mtsgo-server
+  quote: >
+   Project at IMT Atlantique
+  description: |
+    Mobile app deployment project : Development of a back-end server with a REST API
+
+    **Tools**: <mark>Python</mark> <mark>Django</mark>
+
 # - layout: left
 #   name: dynamit-cli
 #   link: floydspace.github.io/dynamodb-migrations-tool
