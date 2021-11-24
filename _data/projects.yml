@@ -11,7 +11,7 @@
 - layout: left
   name: MTSGO Server
   link: aneutron.github.io/mtsgo-server/
-  github: github.com/aneutron/mtsgo-server
+  github: aneutron/mtsgo-server
   quote: >
    Project at IMT Atlantique
   description: |

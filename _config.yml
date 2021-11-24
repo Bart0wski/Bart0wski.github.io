@@ -25,17 +25,17 @@ linkedin_username: francoisbeugin
 # pinterest_username: jekyll
 #youtube_username: globalmtb
 # googleplus_username: +jekyll
-resume: Resume_english.pdf
+resume: CV_FBEUGIN_english.pdf
 
 # Google Analytics and Tag Manager
 #gtag: UA-155264465-1
 
 # About Section
 # about_title: Profile
-about_profile_image: images/kakao.jpg
+about_profile_image: images/frog.png
 about_content: |
-  Hi, welcome to my personal web page, I'm François and I'm a Wireless Network Engineer working on 4G and 5G Technologies at Huawei.
-  Before that, I was working an intern at Bouygues Telecom to finish my Master Degree at IMT Atlantique.
+  Hi, I'm François and I'm a Wireless Network Engineer working on 4G and 5G Technologies at Huawei.
+  Before that, I was working an intern as Radio Access Network Engineer at Bouygues Telecom to finish my Master Degree at IMT Atlantique.
   I'm also interested in IoT and analyzing data.
 
   I am most skilled in: <mark>Python</mark> and <mark>Mobile Networks</mark>
@@ -57,7 +57,7 @@ projects_title: Projects at IMT Atlantique
 # More Section
 more_title: Hobbies
 more_content: |
-  Alongside my interests in software development some of my other interests and hobbies are:
+  Alongside my interests in programming and mobile networks some of my other interests and hobbies are:
    - 🕹️ Gaming
    - 🏓 Table Tennis
    - 🎴 Bridge
