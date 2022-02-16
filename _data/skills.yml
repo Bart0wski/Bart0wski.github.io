@@ -8,13 +8,13 @@
   score: [1,1,1,1,1]
 - skill: 4G LTE
   score: [1,1,1,1,1]
+- skill: NB-IoT / LTE-M
+  score: [1,1,1,1,1]
 - skill: Nemo, XCAL, QxDM
   score: [1,1,1,1,1]
 - skill: French
   score: [1,1,1,1,1]
 - skill: English
   score: [1,1,1,1,1]
-- skill: German
-  score: [1,1,1]
 - skill: Korean
   score: [1]
