@@ -8,6 +8,7 @@
   description: | # this will include new lines to allow paragraphs
     - 4G/5G new features tests and KPI analysis on live network and lab
     - Site Design of 5G Site
+    - Integration of the NB-IOT \& LTE-M technologies
     - Responsible for wireless system testing and validation
     - Provide and perform acceptance test case
     - Configure wireless equipments (base station and controler)
