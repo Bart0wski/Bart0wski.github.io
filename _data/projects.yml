@@ -26,7 +26,7 @@
 #   quote: >
 #     🧨 The DynamoDB Migrations Tool Command Line Interface (dynamit-cli).
 #   description: |
-#     It's like `sequelize-cli` implemented for migrating dynamodb tables, It serves as alternative to cloudformation, because CF has gsi multiple updates limitation.
+#     It's like `sequelize-cli`  implemented for migrating dynamodb tables, It serves as alternative to cloudformation, because CF has gsi multiple updates limitation.
 # - layout: left
 #   name: isin-validator
 #   link: github.com/floydspace/isin-validator
