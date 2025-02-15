@@ -47,11 +47,10 @@ jobs:
         env:
           JEKYLL_ENV: production
 
-      - name: Upload Jekyll Build Artifact
-        uses: actions/upload-artifact@v4
+      - name: Upload Jekyll Build Artifact for Pages
+        uses: actions/upload-pages-artifact@v1
         with:
-          name: github-pages  # Changed the artifact name to 'github-pages'
-          path: ./_site
+          path: ./_site  # Jekyll build output directory
 
   # Deployment job
   deploy:
@@ -62,9 +61,8 @@ jobs:
     needs: build
     steps:
       - name: Download Artifact
-        uses: actions/download-artifact@v4
+        uses: actions/download-pages-artifact@v1
         with:
-          name: github-pages  # Make sure the name matches the one uploaded above
           path: ./_site
 
       - name: Deploy to GitHub Pages
