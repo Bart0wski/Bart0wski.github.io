@@ -1,3 +1,8 @@
+# This workflow uses actions that are not certified by GitHub.
+# They are provided by a third-party and are governed by
+# separate terms of service, privacy policy, and support
+# documentation.
+
 # Sample workflow for building and deploying a Jekyll site to GitHub Pages
 name: Deploy Jekyll site to Pages
 
@@ -7,12 +12,12 @@ on:
     branches: ["master"]
 
   schedule:
-    - cron: "0 0 1 * *"
+  - cron: "0 0 1 * *"
 
-  # Allows manual workflow runs
+  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-# Permissions for GitHub Pages deployment
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read
   pages: write
@@ -28,29 +33,25 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
-
       - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
+        uses: ruby/setup-ruby@ee2113536afb7f793eed4ce60e8d3b26db912da4 # v1.127.0
         with:
-          ruby-version: '3.0'
-          bundler-cache: true
-          cache-version: 0
-
+          ruby-version: '3.0' # Not needed with a .ruby-version file
+          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+          cache-version: 0 # Increment this number if you need to re-download cached gems
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
-
       - name: Build with Jekyll
+        # Outputs to the './_site' directory by default
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
-
-      - name: Upload Jekyll Build Artifact for Pages
+      - name: Upload artifact
+        # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./_site  # Jekyll build output directory
 
   # Deployment job
   deploy:
@@ -60,11 +61,6 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
-      - name: Download Artifact
-        uses: actions/download-pages-artifact@v1
-        with:
-          path: ./_site
-
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
