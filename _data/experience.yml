@@ -1,10 +1,29 @@
 - layout: custom
+  name: SFR
+  link: https://www.sfr.fr/
+  city: Paris • France
+  logo: images/SFR_logo_2014.png
+  job_title: Expert Wireless Network Engineer
+  start_date: January 2024
+  description: | # this will include new lines to allow paragraphs
+    - 4G/5G new features tests and KPI analysis on live network
+    - 4G/5G Radio Network Optimization
+    - Data analysis of massive Drive Tests
+    - Configure wireless equipments (base station and controler)
+    - Creation of tools to generate configuration script automatically
+    - LTE-M and NB-IOT Network Optimization
+    - Integration of 5G SA on live Network
+    - Integration of VoNR
+
+    **Tools**: <mark>Python</mark> <mark>Accuver XCAL</mark>
+- layout: custom
   name: Huawei France
   link: https://www.huawei.com/fr/
   city: Paris • France
   logo: images/huawei_logo.webp
   job_title: Wireless Network Engineer
   start_date: October 2019
+  end_date: October 2023
   description: | # this will include new lines to allow paragraphs
     - 4G/5G new features tests and KPI analysis on live network and lab
     - Site Design of 5G Site
