@@ -6,14 +6,14 @@
   job_title: Expert Wireless Network Engineer
   start_date: January 2024
   description: | # this will include new lines to allow paragraphs
-    - 4G/5G new features tests and KPI analysis on live network
-    - 4G/5G Radio Network Optimization
-    - Data analysis of massive Drive Tests
-    - Configure wireless equipments (base station and controler)
-    - Creation of tools to generate configuration script automatically
-    - LTE-M and NB-IOT Network Optimization
-    - Integration of 5G SA on live Network
-    - Integration of VoNR
+    - Led RAN integration and validation of 5G SA, VoNR and Slicing in both lab and live networks.
+    - Coordinated testing of 4G/5G new features and conducted KPI analysis in live environments.
+    - Delivered network optimization for NB-IoT & LTE-M, improving performance KPIs.
+    - Oversaw large-scale drive-test data analysis, producing reports and dashboards.
+    - Provided and perform acceptance test case
+    - Configured wireless equipment (base station and controller)
+    - Acted as technical lead for troubleshooting and defect resolution, ensuring end-to-end RCA
+    - Led RAN integration of 4G and 5G Energy Saving Features to reduce cost and carbon footprint
 
     **Tools**: <mark>Python</mark> <mark>Accuver XCAL</mark>
 - layout: custom
@@ -25,14 +25,12 @@
   start_date: October 2019
   end_date: October 2023
   description: | # this will include new lines to allow paragraphs
-    - 4G/5G new features tests and KPI analysis on live network and lab
-    - Site Design of 5G Site
-    - Integration of the NB-IOT \& LTE-M technologies
-    - Responsible for wireless system testing and validation
-    - Provide and perform acceptance test case
-    - Configure wireless equipments (base station and controler)
-    - Participation and implementation of test protocols for mobile radio equipment on experimental platforms.
-    - Creation of tools to generate configuration script automatically
+    - Managed system integration testing and validation of 4G/5G features across multi-vendor environments.
+    - Designed and implemented automated configuration tools, accelerating test preparation and reducing errors.
+    - Led the integration of the NB-IOT & LTE-M technologies from RAN Vendor side
+    - Participated in the Site Design during the initial 5G Deployement
+    - Collaborated with customers and internal teams on test protocol development for mobile radio equipment
+    - Coordinated defect handling and troubleshooting with customer engineering teams.
 
     **Tools**: <mark>Python</mark> <mark>Keysight Nemo</mark> <mark>Genex Probe</mark>
 - layout: custom
