@@ -3,7 +3,7 @@
   link: https://www.sfr.fr/
   city: Paris • France
   logo: images/SFR_logo_2014.png
-  job_title: Expert RAN Engineer
+  job_title: Expert 4G/5G RAN Engineer
   start_date: January 2024
   description: | # this will include new lines to allow paragraphs
     - Led RAN integration and validation of **5G SA**, **VoNR** and **Slicing** in both lab and live networks

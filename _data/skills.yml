@@ -1,10 +1,12 @@
-- skill: 5G NR
+- skill: 5G NR (SA/NSA)
   score: [1,1,1,1,1]
 - skill: 4G LTE
   score: [1,1,1,1,1]
-- skill: NB-IoT / LTE-M
+- skill: VoNR - VoLTE
   score: [1,1,1,1,1]
-- skill: Nemo, XCAL, QxDM
+- skill: NB-IoT - LTE-M
+  score: [1,1,1,1,1]
+- skill: Nemo - XCAL - QxDM
   score: [1,1,1,1,1]
 - skill: Python
   score: [1,1,1,1,1]
