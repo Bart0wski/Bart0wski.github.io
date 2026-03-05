@@ -6,7 +6,7 @@
   score: [1,1,1,1,1]
 - skill: NB-IoT - LTE-M
   score: [1,1,1,1,1]
-- skill: Nemo - XCAL - QxDM
+- skill: Nemo - XCAL
   score: [1,1,1,1,1]
 - skill: Python
   score: [1,1,1,1,1]
