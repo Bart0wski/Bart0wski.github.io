@@ -1,23 +1,46 @@
 - layout: left
-  name: Tools for measuring the characteristics of a wireless network
-#   link: floydspace.github.io/serverless-esbuild
-#   github: floydspace/serverless-esbuild
+  name: AI-Powered Korean Language Automation
   quote: >
-     End of studies project at IMT Atlantique.
+      Transforming raw study materials into structured Anki flashcards.
   description: |
-     Creation of throughput measurement and analysis tools on a communicating vehicle
+      Developed a pipeline to extract vocabulary from Korean PDFs and text.
+      Utilized the Gemini API for natural language processing and JSON data extraction,
+      with Claude Code facilitating rapid development and iteration.
 
-     **Tools**: <mark>Python</mark> <mark>Flask</mark> <mark>Raspberry Pi</mark>
+      **Tools**: <mark>Gemini API</mark> <mark>Claude Code</mark> <mark>Python</mark> <mark>JSON</mark> <mark>Anki</mark>
+
 - layout: left
-  name: MTSGO Server
+  name: Multi-RAT Network Measurement & Telemetry Suite
+  quote: >
+      Final Year Project at IMT Atlantique: Supporting Intelligent Network Selection.
+  description: |
+      Developed a high-fidelity data collection system for communicating vehicles to monitor
+      Wireless Network KPIs (Latency, RSRP, Throughput, and GPS metrics).
+
+      Engineered a Python-based telemetry agent deployed on Raspberry Pi and a REST API (Flask)
+      backend for centralized data storage. This dataset directly enabled a PhD research
+      project to implement a Machine Learning-driven handover strategy, selecting the
+      optimal network interface (5G, LTE, Ethernet) based on real-time application requirements.
+
+      **Tools**: <mark>Python</mark> <mark>Flask</mark> <mark>Raspberry Pi</mark> <mark>REST API</mark> <mark>LTE/5G Metrics</mark>
+
+- layout: left
+  name: MTSGO - Geolocation-Based Backend Engine
   link: aneutron.github.io/mtsgo-server/
   github: aneutron/mtsgo-server
   quote: >
-   Project at IMT Atlantique
+      Location-based Mobile Application Project at IMT Atlantique.
   description: |
-    Mobile app deployment project : Development of a back-end server with a REST API
+      Architected and deployed a robust REST API for a "Pokémon Go" style mobile
+      experience. The system processes real-time GPS coordinates to trigger
+      context-aware content and interactive challenges based on the user's
+      physical location.
 
-    **Tools**: <mark>Python</mark> <mark>Django</mark>
+      Additionally engineered a dedicated **Admin API** to expose system data,
+      enabling a separate development team to build an integrated management
+      dashboard for real-time monitoring and content curation.
+
+      **Tools**: <mark>Python</mark> <mark>Django</mark> <mark>REST Framework</mark> <mark>Geospatial API</mark> <mark>Admin API</mark>
 
 # - layout: left
 #   name: dynamit-cli
