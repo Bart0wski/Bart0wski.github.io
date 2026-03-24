@@ -3,9 +3,9 @@
   quote: >
       Transforming raw study materials into structured Anki flashcards.
   description: |
-      Developed a pipeline to extract vocabulary from Korean PDFs and text.
-      Utilized the Gemini API for natural language processing and JSON data extraction,
-      with Claude Code facilitating rapid development and iteration.
+    - Developed a pipeline to **automate vocabulary extraction** from Korean PDFs and raw text using NLP.
+    - Integrated **Gemini API** to generate structured study data, ensuring 100% compatibility with JSON-based imports.
+    - Leveraged **Claude Code** as a development agent for rapid prototyping and iteration of the processing scripts.
 
       **Tools**: <mark>Gemini API</mark> <mark>Claude Code</mark> <mark>Python</mark> <mark>JSON</mark> <mark>Anki</mark>
 
@@ -14,13 +14,9 @@
   quote: >
       Final Year Project at IMT Atlantique: Supporting Intelligent Network Selection.
   description: |
-      Developed a high-fidelity data collection system for communicating vehicles to monitor
-      Wireless Network KPIs (Latency, RSRP, Throughput, and GPS metrics).
-
-      Engineered a Python-based telemetry agent deployed on Raspberry Pi and a REST API (Flask)
-      backend for centralized data storage. This dataset directly enabled a PhD research
-      project to implement a Machine Learning-driven handover strategy, selecting the
-      optimal network interface (5G, LTE, Ethernet) based on real-time application requirements.
+    - Engineered a **telemetry agent on Raspberry Pi** to collect real-time Wireless Network KPIs (Latency, RSRP, Throughput, GPS).
+    - Built a **Flask-based REST API** for centralized storage of vehicle-to-everything (V2X) data.
+    - Enabled a PhD research project to implement an **ML-driven handover strategy** (5G vs. LTE vs. Ethernet) based on this dataset and application needs.
 
       **Tools**: <mark>Python</mark> <mark>Flask</mark> <mark>Raspberry Pi</mark> <mark>REST API</mark> <mark>LTE/5G Metrics</mark>
 
@@ -31,16 +27,11 @@
   quote: >
       Location-based Mobile Application Project at IMT Atlantique.
   description: |
-      Architected and deployed a robust REST API for a "Pokémon Go" style mobile
-      experience. The system processes real-time GPS coordinates to trigger
-      context-aware content and interactive challenges based on the user's
-      physical location.
+    - Developed a **Django REST API** to handle real-time GPS coordinate processing for location-triggered content.
+    - Engineered a dedicated **Admin API** to allow content curation and live monitoring by external dashboard teams.
+    - Optimized backend architecture for efficient **geospatial data handling** in a gamified environment.
 
-      Additionally engineered a dedicated **Admin API** to expose system data,
-      enabling a separate development team to build an integrated management
-      dashboard for real-time monitoring and content curation.
-
-      **Tools**: <mark>Python</mark> <mark>Django</mark> <mark>REST Framework</mark> <mark>Geospatial API</mark> <mark>Admin API</mark>
+      **Tools**: <mark>Python</mark> <mark>Django</mark> <mark>REST API</mark>
 
 # - layout: left
 #   name: dynamit-cli
