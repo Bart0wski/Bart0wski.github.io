@@ -1,10 +1,12 @@
 - layout: left
-  name: AI-Powered Korean Language Automation
+  name: AI-Powered Korean Vocabulary Extraction & Automation
+  link: github.com/Bart0wski/korean-vocab-extractor
+  github: Bart0wski/korean-vocab-extractor
   quote: >
-      Transforming raw study materials into structured Anki flashcards.
+      Automating the transition from raw Korean text to structured, high-fidelity study materials.
   description: |
-    - Developed a pipeline to **automate vocabulary extraction** from Korean PDFs and raw text using NLP.
-    - Integrated **Gemini API** to generate structured study data, ensuring 100% compatibility with JSON-based imports.
+    - Engineered a full-stack extraction engine using the **Gemini API** to perform multi-modal OCR and linguistic analysis on Korean PDFs, images, and raw text.
+    - Developed a custom export pipeline generating native **Anki (.apkg) files**, featuring automatic thematic tagging and metadata integration for seamless flashcard synchronization.
     - Leveraged **Claude Code** as a development agent for rapid prototyping and iteration of the processing scripts.
 
       **Tools**: <mark>Gemini API</mark> <mark>Claude Code</mark> <mark>Python</mark> <mark>JSON</mark> <mark>Anki</mark>
