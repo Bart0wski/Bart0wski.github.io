@@ -1,15 +1,3 @@
-# - layout: custom
-#   name: Ural Institute of Stock Market
-#   city: Yekaterinburg
-#   logo: images/uifr-logo.png
-#   link: www.uifr.ru
-#   dates: 2001 - 2006
-#   qualification: Master's Degree
-#   description: |
-#     - **Direction**: Finance and Credit
-#     - **Specialization**: Securities market and stock exchanges
-#     - **Thesis**: Specifics of asset management in the banking sector
-
 - layout: custom
   name: IMT Atlantique (former Telecom Bretagne)
   city: Brest - Rennes • France
@@ -42,7 +30,7 @@
   dates: 2014 - 2016
   logo: images/faidherbe.png
   link: https://www.faidherbe.org/
-  qualification: Preparatory Classes 
+  qualification: Preparatory Classes
   description: | # this will include new lines to allow paragraphs
     Two-year undergraduate intensive course
       - Mathematics

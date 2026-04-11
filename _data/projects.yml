@@ -1,14 +1,14 @@
 - layout: left
   name: AI-Powered Korean Vocabulary Extraction & Automation
-  link: github.com/Bart0wski/korean-vocab-extractor
-  github: Bart0wski/korean-vocab-extractor
+  link: github.com/Bart0wski/android-korean-vocab-extractor-distrib
+  github: Bart0wski/android-korean-vocab-extractor-distrib
   quote: >
-      Automating the transition from raw Korean text to structured, high-fidelity study materials.
+      Automating the transition from raw Korean text or vocabulary to structured, high-fidelity study materials.
   description: |
-    - Engineered a full-stack extraction engine using the **Gemini API** to perform multi-modal OCR and linguistic analysis on Korean PDFs, images, and raw text.
-    - Developed a custom export pipeline generating native **Anki (.apkg) files**, featuring automatic thematic tagging and metadata integration for seamless flashcard synchronization.
-    - Leveraged **Claude Code** as a development agent for rapid prototyping of a local server and an Android App.
-    
+    - Built a native **Android app** (Flutter + Riverpod) powered by the **Gemini API** for multi-modal Korean vocabulary extraction from plain text, PDFs, and images with a single tap.
+    - Implemented a full **vocabulary management system** backed by SQLite: search, POS/tag filtering, CSV import/export, duplicate detection, and bulk selection.
+    - Prototyped an earlier **browser-based version** using a local server built with **Python FastAPI**, serving the same Gemini extraction logic via REST endpoints before the Android rewrite.
+    - Leveraged **Claude Code** as a development agent throughout — from architecture decisions to debugging and release automation.
       **Tools**: <mark>Gemini API</mark> <mark>Claude Code</mark> <mark>Python</mark> <mark>Android</mark> <mark>Anki</mark>
 
 - layout: left
