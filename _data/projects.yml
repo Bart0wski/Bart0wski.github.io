@@ -9,6 +9,7 @@
     - Implemented a full **vocabulary management system** backed by SQLite: search, POS/tag filtering, CSV import/export, duplicate detection, and bulk selection.
     - Prototyped an earlier **browser-based version** using a local server built with **Python FastAPI**, serving the same Gemini extraction logic via REST endpoints before the Android rewrite.
     - Leveraged **Claude Code** as a development agent throughout — from architecture decisions to debugging and release automation.
+    
       **Tools**: <mark>Gemini API</mark> <mark>Claude Code</mark> <mark>Python</mark> <mark>Android</mark> <mark>Anki</mark>
 
 - layout: left
