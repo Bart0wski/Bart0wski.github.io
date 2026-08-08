@@ -12,6 +12,7 @@
     - Oversaw large-scale drive-test **data analysis**, producing reports and dashboards
     - Designed and executed 4G/5G radio acceptance **test cases**
     - **Configured** and **commissioned** 4G/5G RAN nodes and associated network interfaces
+    - Developed internal tooling and Python SDKs to automate Huawei **Network Element API** interactions
     - Acted as technical lead for **troubleshooting** and defect resolution, ensuring end-to-end RCA
     - Led RAN integration of 4G and 5G **Energy Saving Features** to reduce cost and carbon footprint
 
@@ -44,7 +45,7 @@
   description: | # this will include new lines to allow paragraphs
     In order to upgrade and calibrate the 4G simulator and develop the 5G simulator, my main missions during this internship were :
     - Identified the main data sources that can be used to **calibrate the 4G simulator** (probes, network counters, ...) and selected and processed the relevant data
-    - Radio site classification based on daily traffic profiles using a K-means machine learning algorithm.
+    - Classified radio sites based on daily traffic profiles using a **K-means machine learning** algorithm
     - Identified sources of information about **5G networks**
     - Analyzed **packets exchanged** between the mobile and the radio access network using **QxDM**
 
